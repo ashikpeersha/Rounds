@@ -1,0 +1,33 @@
+.Load{
+    border:16px solid;
+    border-radius:50%;
+    border-top:16px dotted hotpink;
+    border-bottom:16px dotted green;
+    border-left:16px dotted yellow;
+    border-right:16px dotted orange;
+    width:120px;
+    height:120px;
+    animation:rotate 2s  linear infinite ;
+}
+@Keyframes rotate{
+ 
+    100% { transform:rotate(360deg);}
+    
+}
+.ashik{
+    border:16px solid;
+    border-radius:50%;
+    border-top:16px dotted black;
+    border-bottom:16px dotted red;
+    border-left:16px dotted orangered;
+    border-right:16px dotted blue;
+    width:120px;
+    height:120px;
+    animation:rotate 2s  linear infinite ;
+}
+@Keyframes rotate{
+ 
+    100% { transform:rotate(360deg);}
+    
+}
+
